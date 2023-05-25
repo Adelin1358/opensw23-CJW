@@ -1,18 +1,18 @@
 
 
-#Team Introduction
+# Team Introduction
 
 
-#Topic Introduction
+# Topic Introduction
 
 
-#Results
+# Results
 
 
-#Analysis/Visualization
+# Analysis/Visualization
 
 
-#Installation
+# Installation
 
 
-#Presentation
+# Presentation
