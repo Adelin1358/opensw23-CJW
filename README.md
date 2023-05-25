@@ -1,7 +1,6 @@
 
-
 # Team Introduction
-
+CHOI JUNG WOO_202211388_Project Director
 
 # Topic Introduction
 
