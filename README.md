@@ -1,6 +1,6 @@
 
 # Team Introduction
-CHOI JUNG WOO_202211388_Project Director
+최정우(CHOI JUNG WOO)_202211388_Project Director
 
 # Topic Introduction
 
