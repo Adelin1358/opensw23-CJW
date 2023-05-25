@@ -1,22 +1,22 @@
 
-# Team Introduction
+## Team Introduction
 최정우(CHOI JUNG WOO)_202211388_Project Director
 
 
-# Topic Introduction
+## Topic Introduction
 
 
 
-# Results
+## Results
 
 
 
-# Analysis/Visualization
+## Analysis/Visualization
 
 
 
-# Installation
+## Installation
 
 
 
-# Presentation
+## Presentation
