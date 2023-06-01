@@ -42,7 +42,7 @@
 <img src = 'images/results/oble_ghoul.jpg' height = '250px'>
  
   
-  - STYLE_TRANSFORM_PATH = "transforms/wave.pth"
+  - STYLE_TRANSFORM_PATH = "transforms/wave.pth" 일 우경우
 <img src = 'images/results/oble_wave.jpg' height = '250px'>
 </p>
   
@@ -61,11 +61,11 @@
 <img src = 'images/results/tokyo.png' height = '250px'> 
   
   
-  - STYLE_TRANSFORM_PATH = "transforms/wave.pth"
+  - STYLE_TRANSFORM_PATH = "transforms/wave.pth"일 경우
 <img src = 'images/results/wave.png' height = '250px'> 
   
   
-  - STYLE_TRANSFORM_PATH = "transforms/starry.pth"
+  - STYLE_TRANSFORM_PATH = "transforms/starry.pth"일 경우
 <img src = 'images/results/starry.png' height = '250px'>   
 </p>
 
