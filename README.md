@@ -24,7 +24,26 @@
   
   
 ## Results
+### stylize.py
+<p align = 'center'>
+<img src = 'images/results/oble_udnie.jpg' height = '500px'>
+<img src = 'images/results/oble_mosaic.jpg' height = '250px'>
+<img src = 'images/results/oble_ghoul.jpg' height = '250px'>
+<img src = 'images/up-diliman.jpg' height = '250px'>
+<img src = 'images/results/oble_udnie_preserve.jpg' height = '250px'>
+</p>
+  
+### video.py 
 
+ 
+  
+### webcam.py 
+<p align = 'center'>
+<img src = 'images/results/mosaic.png' height = '500px'> 
+<img src = 'images/results/tokyo.png' height = '500px'> 
+<img src = 'images/results/wave.png' height = '500px'> 
+<img src = 'images/results/starry.png' height = '500px'>   
+</p>
 
 
 ## Analysis/Visualization
@@ -44,4 +63,6 @@ Most of the codes here assume that the user have access to CUDA capable GPU, at 
 * [opencv2](https://matplotlib.org/users/installing.html)
 * [NumPy](https://www.scipy.org/install.html)
 * [FFmpeg](https://www.ffmpeg.org/) (Optional) - Installation [Instruction here](https://github.com/adaptlearning/adapt_authoring/wiki/Installing-FFmpeg)
+
+
   
