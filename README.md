@@ -32,4 +32,16 @@
 
 
 ## Installation
+### Requirements
+Most of the codes here assume that the user have access to CUDA capable GPU, at least a GTX 1050 ti or a GTX 1060
+#### Data Files
+* [Pre-trained VGG16 network weights](https://github.com/jcjohnson/pytorch-vgg) - put it in `models/` directory
+* [MS-COCO Train Images (2014)](http://cocodataset.org/#download) - 13GB - put `train2014` directory in `dataset/` directory
+* [torchvision](https://pytorch.org/) - `torchvision.models` contains the VGG16 and VGG19 model skeleton
 
+#### Dependecies
+* [PyTorch](https://pytorch.org/)
+* [opencv2](https://matplotlib.org/users/installing.html)
+* [NumPy](https://www.scipy.org/install.html)
+* [FFmpeg](https://www.ffmpeg.org/) (Optional) - Installation [Instruction here](https://github.com/adaptlearning/adapt_authoring/wiki/Installing-FFmpeg)
+  
