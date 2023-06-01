@@ -43,7 +43,7 @@
  
   
   - STYLE_TRANSFORM_PATH = "transforms/wave.pth"
-<img src = 'images/results/oble_udnie_preserve.jpg' height = '250px'>
+<img src = 'images/results/oble_wave.jpg' height = '250px'>
 </p>
   
   
