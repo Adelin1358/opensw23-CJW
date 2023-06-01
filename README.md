@@ -26,10 +26,24 @@
 ## Results
 ### stylize.py
 <p align = 'center'>
-<img src = 'images/results/oble_udnie.jpg' height = '500px'>
+  
+    - 원본
+<img src = 'images/up-diliman.jpg' height = '500px'>
+  
+  
+  - STYLE_TRANSFORM_PATH = "transforms/udnie.pth"일 경우
+<img src = 'images/results/oble_udnie.jpg' height = '250px'>
+  
+  
+  - STYLE_TRANSFORM_PATH = "transforms/mosaic.pth"일 경우
 <img src = 'images/results/oble_mosaic.jpg' height = '250px'>
+  
+  
+  - STYLE_TRANSFORM_PATH = "transforms/tokyo_ghoul.pth"일 경우
 <img src = 'images/results/oble_ghoul.jpg' height = '250px'>
-<img src = 'images/up-diliman.jpg' height = '250px'>
+ 
+  
+  - STYLE_TRANSFORM_PATH = "transforms/wave.pth"
 <img src = 'images/results/oble_udnie_preserve.jpg' height = '250px'>
 </p>
   
@@ -39,10 +53,14 @@
   
 ### webcam.py 
 <p align = 'center'>
-<img src = 'images/results/mosaic.png' height = '500px'> 
-<img src = 'images/results/tokyo.png' height = '500px'> 
-<img src = 'images/results/wave.png' height = '500px'> 
-<img src = 'images/results/starry.png' height = '500px'>   
+  -
+<img src = 'images/results/mosaic.png' height = '250px'>
+  -
+<img src = 'images/results/tokyo.png' height = '250px'> 
+  -
+<img src = 'images/results/wave.png' height = '250px'> 
+  -
+<img src = 'images/results/starry.png' height = '250px'>   
 </p>
 
 
