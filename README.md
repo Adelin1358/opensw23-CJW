@@ -128,7 +128,7 @@ See [table below for the comparison of different transformer networks](#comparis
 
 See [transforms folder](https://github.com/rrmina/fast-neural-style-pytorch/tree/master/transforms) for some pretrained weights. For more pretrained weights, see my [Gdrive](https://drive.google.com/open?id=1m9g1PP7gPo-jPfRDxzdGozMzftu3az6P) or [Dropbox](https://www.dropbox.com/sh/066lk1m5sgkhtmi/AAAqVwNhCHsrK2p8Xil1ftH4a?dl=0).
 
-## Stylizing Images
+### Stylizing Images
 **`stylize.py`**: Loads a pre-trained transformer network weight and applies style (1) to a content image or (2) to the images inside a folder
 ```
 python stylize.py
@@ -137,7 +137,7 @@ python stylize.py
 * `STYLE_TRANSFORM_PATH`: path of the pre-trained weights of the the transformation network. Sample pre-trained weights are availabe in `transforms` folder, including their implementation parameters.
 * `PRESERVER_COLOR`: set to `True` if you want to preserve the original image's color after applying style transfer. Default value is `False`
 
-## Stylizing Videos
+### Stylizing Videos
 **`video.py`**: Extracts all frames of a video, apply fast style transfer on each frames, and combine the styled frames into an output video. The output video doesn't retain the original audio. Optionally, you may use FFmpeg to merge the output video and the original video's audio.
 ```
 python video.py
@@ -154,7 +154,7 @@ python video.py
 * `BATCH_SIZE`: batch size of stylization of extracted original video frames. A 1080ti 11GB can handle a batch size of 20 for 720p videos, and 80 for a 480p videos. Dafult is `1`
 * `USE_FFMPEG`(Optional): Set to `True` if you want to use FFmpeg in extracting the original video's audio and encoding the styled video with the original audio.
 
-## Stylizing Webcam
+### Stylizing Webcam
 **`webcam.py`**: Captures and saves webcam output image, perform style transfer, and again saves a styled image. Reads the styled image and show in window. 
 ```
 python webcam.py
@@ -163,6 +163,9 @@ python webcam.py
 * `STYLE_TRANSFORM_PATH`: pretrained weight of the style of the transformation network to use for video style transfer. Default is `"transforms/aggressive.pth"`
 * `WIDTH`: width of the webcam output window. Default is `1280`
 * `HEIGHT`: height of the webcam output window. Default is `720`
+
+### 
+-
 
 
 
