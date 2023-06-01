@@ -164,8 +164,31 @@ python webcam.py
 * `WIDTH`: width of the webcam output window. Default is `1280`
 * `HEIGHT`: height of the webcam output window. Default is `720`
 
-### 
--
+
+</p>
+### course
+
+-Data Files 설치 후 파일 상황
+<img src = 'course/1.png' height = '250px'>
+
+
+-stylize.py 주의사항
+  21 line 주석처리된 부분=>TYLE_TRANSFORM_PATH =tokyo_ghoul.pth 일 경우 18줄 코드 주석 처리후, 밑 코드를 실행시킬 것!!!
+<img src = 'course/2.png' height = '250px'>
+
+
+-webcam.py 주의사항
+  25 line 주석처리된 부분=>TYLE_TRANSFORM_PATH =tokyo_ghoul.pth 일 경우 24 line 코드 주석 처리후, 26 line 코드를 실행시킬 것!!!
+<img src = 'course/3.png' height = '250px'>
+
+
+-변형시킬 이미지를 images/ 파일에서 선정한 뒤, 적용할 스타일을 transforms/ 파일에 PTH파일를 골라 적용한다.
+<img src = 'course/4.png' height = '250px'>
+<img src = 'course/5.png' height = '250px'>
+
+
+
+
 
 
 
