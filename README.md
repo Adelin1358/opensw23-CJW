@@ -25,7 +25,6 @@
   
 ## Results
 ### stylize.py
-<p align = 'center'>
   
     - up-diliman.jpg 원본
 <img src = 'images/up-diliman.jpg' height = '500px'>
