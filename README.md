@@ -94,7 +94,7 @@ Most of the codes here assume that the user have access to CUDA capable GPU, at 
 * [FFmpeg](https://www.ffmpeg.org/) (Optional) - Installation [Instruction here](https://github.com/adaptlearning/adapt_authoring/wiki/Installing-FFmpeg)
 
 
-# Usage
+#### Usage
 All arguments, parameters and options are **`hardcoded`** inside these 5 python files. **Before using the codes, please arrange your files and folders [as defined below](#files-and-folder-structure)**.
 ## Training Style Transformation Network
 **`train.py`**: trains the transformation network that learns the style of the `style image`. Each model in `transforms` folder was trained for roughly 23 minutes, with single pass (1 epoch) of 40,000 training images, and a batch size of 4, on a GTX 1080 Ti. 
