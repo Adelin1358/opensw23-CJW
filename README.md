@@ -6,7 +6,7 @@
 ## Topic Introduction
 - 개요
 
-      ㄹㄷㄷㅈㄹㅈ
+이 프로그램은 이미지 스타일 변환(fast-neural-style-transfer)을 수행하는 것을 목표로 합니다. 
 
 
 
