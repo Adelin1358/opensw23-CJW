@@ -48,7 +48,17 @@
   
   
 ### video.py 
+#### Video Stylization
+<p align = 'center'>
+<a href="https://www.youtube.com/watch?v=dB7DRsnkE3g&list=PL3freW_f-7aWsJrHTG5AKpY9TPWZgnNcm">
+<img src="images/results/video.gif" height = '360px'>
+</a>
+</p>
+<p align = 'center'>
+It took 6 minutes and 43 seconds to stylize a 2:11 minute-24 fps-1280x720 video on a GTX 1080 Ti. 
+</p>
 
+More videos in this [Youtube playlist](https://www.youtube.com/watch?v=dB7DRsnkE3g&list=PL3freW_f-7aWsJrHTG5AKpY9TPWZgnNcm). Unfortunately, Youtube's compression isn't friendly with style transfer videos, possibily because each frame is shaky with respect to its adjacent frames, hence obvious loss in video quality. `Raw and lossless output video can be downloaded in my` [Dropbox folder](https://www.dropbox.com/sh/ynlie98f1lb4csz/AAC4utgi8HrS_D7XDU-9FXoAa?dl=0), or [Gdrive Folder](https://drive.google.com/open?id=1uplUkayaTiThURmQTAuUqeAKuQeLxXCc)
  
   
 ### webcam.py 
