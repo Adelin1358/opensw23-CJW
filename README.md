@@ -53,13 +53,19 @@
   
 ### webcam.py 
 <p align = 'center'>
-  -
+  - STYLE_TRANSFORM_PATH = "transforms/mosaic.pth"일 경우
 <img src = 'images/results/mosaic.png' height = '250px'>
-  -
+  
+  
+  - STYLE_TRANSFORM_PATH = "transforms/tokyo_ghoul.pth"일 경우
 <img src = 'images/results/tokyo.png' height = '250px'> 
-  -
+  
+  
+  - STYLE_TRANSFORM_PATH = "transforms/wave.pth"
 <img src = 'images/results/wave.png' height = '250px'> 
-  -
+  
+  
+  - STYLE_TRANSFORM_PATH = "transforms/starry.pth"
 <img src = 'images/results/starry.png' height = '250px'>   
 </p>
 
