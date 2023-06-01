@@ -52,7 +52,7 @@
  
   
 ### webcam.py 
-<p align = 'center'>
+
   - STYLE_TRANSFORM_PATH = "transforms/mosaic.pth"일 경우
 <img src = 'images/results/mosaic.png' height = '250px'>
   
