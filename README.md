@@ -65,7 +65,7 @@
 
 - 해당 이미지를 약 150장 훈련 시켰을 경우(train.py)
 <p align = 'center'>
-<img src = 'results2/splatoon_38.png' height = '250px'>
+<img src = 'results2/splatoon(38).png' height = '250px'>
 </p>
 
 
