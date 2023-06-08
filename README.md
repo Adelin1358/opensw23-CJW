@@ -24,9 +24,11 @@
   
   
 ## Results
-### stylize.py
+### 1.stylize.py
+#### 1-1. 제공된 pth 파일을 적용한 케이스
   
-    - up-diliman.jpg 원본
+  
+  - up-diliman.jpg 원본
 <img src = 'images/up-diliman.jpg' height = '500px'>
   
   
@@ -42,11 +44,16 @@
 <img src = 'images/results/oble_ghoul.jpg' height = '250px'>
  
   
-  - STYLE_TRANSFORM_PATH = "transforms/wave.pth" 일 우경우
+  - STYLE_TRANSFORM_PATH = "transforms/wave.pth" 일 경우
 <img src = 'images/results/oble_wave.jpg' height = '250px'>
 </p>
   
   
+#### 1-2. 한 장의 이미지를 활용해 훈련시킨 케이스
+<p align = 'center'>
+<img src = 'images/results/oble_wave.jpg' height = '250px'>
+
+
 ### video.py 
 #### Video Stylization
 <p align = 'center'>
