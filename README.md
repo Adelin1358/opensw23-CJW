@@ -66,18 +66,8 @@
 <p align = 'center'>
 <img src = 'results2/4.png' height = '400px'>
 <img src = 'results2/5.png' height = '400px'> 
-<img src = 'results2/6.png' height = '400px'>
-  
-  
-해당 이미지 선정 사유:
 
-
-- 각각의 이미지를 400장씩, 총 2000 장 훈련 시켰을 경우(train.py)
-<p align = 'center'>
-<img src = 'results2/penguin502.png' height = '400px'>
-</p>
-
-  
+ 
 ### webcam.py 
 
   - STYLE_TRANSFORM_PATH = "transforms/mosaic.pth"일 경우
@@ -98,23 +88,19 @@
 
 
 ## Analysis/Visualization
-
-
-- splatoon.jpg 이미지를 약 800장 훈련 시켰을 때, 로스율 그래프
 <p align = 'center'>
-<img src = 'results2/splatoon(194).png' height = '250px'>
+<img src = 'results2/6.png' height = '400px'>
+  
+
+- splatoon.jpg 이미지를 약 2000장 훈련 시켰을 때, 로스
+<p align = 'center'>
+<img src = 'results2/501 - 복사본.png' height = '200px'>
 </p>
 
 
-- splatoon.jpg 이미지를 약 2000장 훈련 시켰을 때, 로스율 그래프
+- 같은 화풍의 penguin 이미지들을 약 2000장 훈련 시켰을 때, 로스
 <p align = 'center'>
-<img src = 'results2/splatoon(501)_loss.png' height = '400px'>
-</p>
-
-
-- 같은 화풍의 penguin 이미지들을 약 2000장 훈련 시켰을 때, 로스율 그래프
-<p align = 'center'>
-<img src = 'results2/penguin(502).png' height = '400px'>
+<img src = 'results2/502.png' height = '200px'>
 </p>
 
 
