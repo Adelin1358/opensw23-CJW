@@ -138,7 +138,9 @@ More videos in this [Youtube playlist](https://www.youtube.com/watch?v=dB7DRsnkE
 
 
 ## Analysis/Visualization
-
+<p align = 'center'>
+<img src = 'results2/penguin1.jpg' height = '200px'>
+<img src = 'results2/penguin2.jpg' height = '200px'>
 
 
 ## Installation
