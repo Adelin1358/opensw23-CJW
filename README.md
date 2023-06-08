@@ -138,7 +138,7 @@
 </p>
 
 
-- penguin 이미지들을 약 2000장 훈련 시켰을 때, 로스율 그래프
+- 같은 화풍의 penguin 이미지들을 약 2000장 훈련 시켰을 때, 로스율 그래프
 <p align = 'center'>
 <img src = 'results2/penguin(502).png' height = '400px'>
 </p>
