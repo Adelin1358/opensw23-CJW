@@ -275,7 +275,7 @@ python webcam.py
 -train.py 주의사항
 
 
-훈련이 끝난 후 나오는 로스율 그래프 오류 존재 
+훈련이 끝난 후 나오는 로스율 그래프 오류 존재 => 무시할 것
 <p align = 'center'>
 <img src = 'results2/penguin(502).png' height = '400px'>
 
