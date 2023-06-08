@@ -53,7 +53,7 @@
 (주의사항)
 - 원본 이미지 파일
 <p align = 'center'>
-<img src = 'results2/splatoon.jpg' height = '500px'>
+<img src = 'results2/splatoon.jpg' height = '400px'>
 </p>
 
 
@@ -77,7 +77,7 @@
 
 - 해당 이미지를 약 2000장 훈련 시켰을 경우(train.py)
 <p align = 'center'>
-<img src = 'results2/splatoon(500).png' height = '500px'>
+<img src = 'results2/splatoon(500).png' height = '400px'>
 </p>
 
 
