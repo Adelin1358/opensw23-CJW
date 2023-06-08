@@ -104,29 +104,7 @@ python webcam.py
 * `WIDTH`: width of the webcam output window. Default is `1280`
 
 * `HEIGHT`: height of the webcam output window. Default is `720`
-
-
-
-
-
-</p>
-
-
-
-### course
-
-
--Data Files 설치 후 파일 상황
-
-  <p align = 'center'>
-
-  <img src = 'course/1.png' height = '250px'>
-
-  </p>
-
-
-
--변형시킬 이미지를 images/ 파일에서 선정한 뒤, 적용할 스타일을 transforms/ 파일에 PTH파일를 골라 적용한다. `SAVE_IMAGE_PATH`: save path of sample tranformed training images. Default is `"images/out/"`
+* `SAVE_IMAGE_PATH`: save path of sample tranformed training images. Default is `"images/out/"`
 * `SAVE_MODEL_EVERY`: Frequency of saving of checkpoint and sample transformed images. 1 iteration is defined as 1 batch pass. Default is `500` with batch size of `4`, that is 2,000 images
 * `SEED`: Random seed to keep the training variations as little as possible
 
