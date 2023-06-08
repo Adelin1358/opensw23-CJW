@@ -189,7 +189,10 @@ python webcam.py
 -stylize.py 주의사항
   21 line 주석처리된 부분=>TYLE_TRANSFORM_PATH =tokyo_ghoul.pth 일 경우 
   18줄 코드 주석 처리후, 밑 코드를 실행시킬 것!!!
+  
+  
   <img src = 'course/2.png' height = '250px'>
+  
   </p>
 
 
