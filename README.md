@@ -176,6 +176,7 @@ python webcam.py
 
 
 </p>
+
 ### course
 
 -Data Files 설치 후 파일 상황
