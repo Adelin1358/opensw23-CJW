@@ -54,8 +54,9 @@
 
 <p align = 'center'>
 <img src = 'results2/1.png' height = '400px'>
+<img src = 'results2/２.png' height = '400px'> 
 <img src = 'results2/３.png' height = '400px'>  
-<img src = 'results2/2.png' height = '400px'>  
+
   
 
 
