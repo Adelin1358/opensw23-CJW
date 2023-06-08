@@ -65,7 +65,7 @@
   
 <p align = 'center'>
 <img src = 'results2/9.png' height = '400px'>
-<img src = 'results2/.png' height = '400px'> 
+<img src = 'results2/8.png' height = '400px'> 
 
  
 ### webcam.py 
