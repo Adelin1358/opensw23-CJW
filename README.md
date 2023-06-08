@@ -49,11 +49,36 @@
 </p>
   
   
-#### 1-2. 한 장의 이미지를 활용해 훈련시킨 케이스
+#### 1-2. 한 종류의 이미지를 활용해 훈련시킨 케이스
+(주의사항)
 - 원본 이미지 파일
 <p align = 'center'>
-  
-<img src = 'results/oble_wave.jpg' height = '250px'>
+<img src = 'results2/splatoon.jpg' height = '500px'>
+</p>
+
+
+- 해당 이미지를 1장만 훈련 시켰을 경우(train.py)
+<p align = 'center'>
+<img src = 'results2/splatoon_1.png' height = '250px'>
+</p>
+
+
+- 해당 이미지를 약 150장 훈련 시켰을 경우(train.py)
+<p align = 'center'>
+<img src = 'results2/splatoon_38.png' height = '250px'>
+</p>
+
+
+- 해당 이미지를 약 800장 훈련 시켰을 경우(train.py)
+<p align = 'center'>
+<img src = 'results2/splatoon_194.png' height = '250px'>
+</p>
+
+
+- 해당 이미지를 약 2000장 훈련 시켰을 경우(train.py)
+<p align = 'center'>
+<img src = 'results2/splatoon(500).png' height = '500px'>
+</p>
 
 
 ### video.py 
