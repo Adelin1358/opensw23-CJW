@@ -99,6 +99,8 @@
 </p>
 
 
+
+
 - 각각의 이미지를 400장씩, 총 2000 훈련 시켰을 경우(train.py)
 <p align = 'center'>
 <img src = 'results2/penguin502.png' height = '400px'>
