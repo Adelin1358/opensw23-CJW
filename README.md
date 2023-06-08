@@ -140,7 +140,6 @@ More videos in this [Youtube playlist](https://www.youtube.com/watch?v=dB7DRsnkE
 ## Analysis/Visualization
 
 
-
 - splatoon.jpg 이미지를 약 800장 훈련 시켰을 때, 로스율 그래프
 <p align = 'center'>
 <img src = 'results2/splatoon(194).png' height = '250px'>
@@ -149,7 +148,7 @@ More videos in this [Youtube playlist](https://www.youtube.com/watch?v=dB7DRsnkE
 
 - splatoon.jpg 이미지를 약 2000장 훈련 시켰을 때, 로스율 그래프
 <p align = 'center'>
-<img src = 'splatoon(501)_loss.png' height = '400px'>
+<img src = 'results/splatoon(501)_loss.png' height = '400px'>
 </p>
 
 
