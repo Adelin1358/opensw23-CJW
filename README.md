@@ -61,14 +61,12 @@
 
 
 #### 1-2. 화풍이 유사한 여러 이미지를 활용해 훈련시킨 케이스
-- 원본 이미지 파일
- (출처: )
+ 
+  
 <p align = 'center'>
-<img src = 'results2/penguin1.jpg' height = '200px'>
-<img src = 'results2/penguin2.jpg' height = '200px'>
-<img src = 'results2/penguin3.jpg' height = '200px'>
-<img src = 'results2/penguin4.jpg' height = '200px'>
-<img src = 'results2/penguin5.jpg' height = '200px'>
+<img src = 'results2/4.png' height = '400px'>
+<img src = 'results2/5.png' height = '400px'> 
+<img src = 'results2/6.png' height = '400px'>
   
   
 해당 이미지 선정 사유:
