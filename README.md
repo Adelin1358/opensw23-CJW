@@ -142,7 +142,80 @@ python train.py
 * `STYLE_WEIGHT`: Multiplier weight of the loss between style representations and the generated image. Default is `50`
 * `ADAM_LR`: learning rate of the adam optimizer. Default is `0.001`
 * `SAVE_MODEL_PATH`: path of pretrained-model weights and transformation network checkpoint files. Default is `"models/"`
-* `SAVE_IMAGE_PATH`: save path of sample tranformed training images. Default is `"images/out/"`
+* 
+
+See [transforms folder](https://github.com/rrmina/fast-neural-style-pytorch/tree/master/transforms) for some pretrained weights. For more pretrained weights, see my [Gdrive](https://drive.google.com/open?id=1m9g1PP7gPo-jPfRDxzdGozMzftu3az6P) or [Dropbox](https://www.dropbox.com/sh/066lk1m5sgkhtmi/AAAqVwNhCHsrK2p8Xil1ftH4a?dl=0).
+
+
+
+### Stylizing Images
+
+**`stylize.py`**: Loads a pre-trained transformer network weight and applies style (1) to a content image or (2) to the images inside a folder
+
+```
+
+python stylize.py
+
+```
+
+**Options**
+
+* `STYLE_TRANSFORM_PATH`: path of the pre-trained weights of the the transformation network. Sample pre-trained weights are availabe in `transforms` folder, including their implementation parameters.
+
+* `PRESERVER_COLOR`: set to `True` if you want to preserve the original image's color after applying style transfer. Default value is `False`
+
+
+
+
+
+### Stylizing Webcam
+
+**`webcam.py`**: Captures and saves webcam output image, perform style transfer, and again saves a styled image. Reads the styled image and show in window. 
+
+```
+
+python webcam.py
+
+```
+
+**Options**
+
+* `STYLE_TRANSFORM_PATH`: pretrained weight of the style of the transformation network to use for video style transfer. Default is `"transforms/aggressive.pth"`
+
+* `WIDTH`: width of the webcam output window. Default is `1280`
+
+* `HEIGHT`: height of the webcam output window. Default is `720`
+
+
+
+
+
+</p>
+
+
+
+### course
+
+
+
+
+
+-Data Files 설치 후 파일 상황
+
+  <p align = 'center'>
+
+  <img src = 'course/1.png' height = '250px'>
+
+  </p>
+
+
+
+
+
+
+
+
+-변형시킬 이미지를 images/ 파일에서 선정한 뒤, 적용할 스타일을 transforms/ 파일에 PTH파일를 골라 적용한다. `SAVE_IMAGE_PATH`: save path of sample tranformed training images. Default is `"images/out/"`
 * `SAVE_MODEL_EVERY`: Frequency of saving of checkpoint and sample transformed images. 1 iteration is defined as 1 batch pass. Default is `500` with batch size of `4`, that is 2,000 images
 * `SEED`: Random seed to keep the training variations as little as possible
 
