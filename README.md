@@ -50,8 +50,10 @@
   
   
 #### 1-2. 한 장의 이미지를 활용해 훈련시킨 케이스
+- 원본 이미지 파일
 <p align = 'center'>
-<img src = 'images/results/oble_wave.jpg' height = '250px'>
+  
+<img src = 'results/oble_wave.jpg' height = '250px'>
 
 
 ### video.py 
