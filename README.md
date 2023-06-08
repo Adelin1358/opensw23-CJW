@@ -100,7 +100,7 @@
 
 - 같은 화풍의 penguin 이미지들을 약 2000장 훈련 시켰을 때, 로스
 
-<img src = 'results2/502.png' height = '200px'>
+<img src = 'results2/502.png' height = '300px'>
 
 
 
