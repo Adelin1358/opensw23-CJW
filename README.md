@@ -51,37 +51,12 @@
   
 #### 1-2. 한 종류의 이미지를 활용해 훈련시킨 케이스
 
-- 원본 이미지 파일
+
 <p align = 'center'>
-<img src = 'results2/splatoon.jpg' height = '400px'>
+<img src = 'results2/1.png' height = '400px'>
+<img src = 'results2/2.png' height = '400px'>  
+<img src = 'results2/3.png' height = '400px'>  
   
-  
-해당 이미지 선정 :
-</p>
-
-
-- 해당 이미지를 1장만 훈련 시켰을 경우(train.py)
-<p align = 'center'>
-<img src = 'results2/splatoon_1.png' height = '250px'>
-</p>
-
-
-- 해당 이미지를 약 150장 훈련 시켰을 경우(train.py)
-<p align = 'center'>
-<img src = 'results2/splatoon(38).png' height = '250px'>
-</p>
-
-
-- 해당 이미지를 약 800장 훈련 시켰을 경우(train.py)
-<p align = 'center'>
-<img src = 'results2/splatoon_194.png' height = '250px'>
-</p>
-
-
-- 해당 이미지를 약 2000장 훈련 시켰을 경우(train.py)
-<p align = 'center'>
-<img src = 'results2/splatoon(500).png' height = '400px'>
-</p>
 
 
 #### 1-2. 화풍이 유사한 여러 이미지를 활용해 훈련시킨 케이스
