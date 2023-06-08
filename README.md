@@ -183,6 +183,7 @@ python webcam.py
 
 ### course
 
+
 -Data Files 설치 후 파일 상황
   <p align = 'center'>
   <img src = 'course/1.png' height = '250px'>
@@ -195,6 +196,15 @@ python webcam.py
   <img src = 'course/4.png' height = '250px'>
   <img src = 'course/5.png' height = '250px'>
   </p>
+
+
+### 주의사항
+-train.py 주의사항
+
+
+훈련이 끝난 후 나오는 로스율 그래프 오류 존재 
+<img src = 'results2/penguin(502).png' height = '400px'>
+
 
 
 -stylize.py 주의사항
