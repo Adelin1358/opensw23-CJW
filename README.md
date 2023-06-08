@@ -23,89 +23,6 @@
   이 프로그램을 사용하면 스타일 전이를 쉽게 수행하고 이미지와 비디오에 다양한 스타일을 적용할 수 있습니다.
   
   
-## Results
-### 1.stylize.py
-#### 1-1. 제공된 pth 파일을 적용한 케이스
-  
-  
-  - up-diliman.jpg 원본
-<img src = 'images/up-diliman.jpg' height = '500px'>
-  
-  
-  - STYLE_TRANSFORM_PATH = "transforms/udnie.pth"일 경우
-<img src = 'images/results/oble_udnie.jpg' height = '250px'>
-  
-  
-  - STYLE_TRANSFORM_PATH = "transforms/mosaic.pth"일 경우
-<img src = 'images/results/oble_mosaic.jpg' height = '250px'>
-  
-  
-  - STYLE_TRANSFORM_PATH = "transforms/tokyo_ghoul.pth"일 경우
-<img src = 'images/results/oble_ghoul.jpg' height = '250px'>
- 
-  
-  - STYLE_TRANSFORM_PATH = "transforms/wave.pth" 일 경우
-<img src = 'images/results/oble_wave.jpg' height = '250px'>
-</p>
-  
-  
-#### 1-2. 한 종류의 이미지를 활용해 훈련시킨 케이스
-
-
-<p align = 'center'>
-<img src = 'results2/1.png' height = '400px'>
-<img src = 'results2/２.png' height = '400px'> 
-<img src = 'results2/３.png' height = '400px'>  
-
-  
-
-
-#### 1-2. 화풍이 유사한 여러 이미지를 활용해 훈련시킨 케이스
- 
-  
-<p align = 'center'>
-<img src = 'results2/9.png' height = '400px'>
-<img src = 'results2/8.png' height = '400px'> 
-
- 
-### webcam.py 
-
-  - STYLE_TRANSFORM_PATH = "transforms/mosaic.pth"일 경우
-<img src = 'images/results/mosaic.png' height = '250px'>
-  
-  
-  - STYLE_TRANSFORM_PATH = "transforms/tokyo_ghoul.pth"일 경우
-<img src = 'images/results/tokyo.png' height = '250px'> 
-  
-  
-  - STYLE_TRANSFORM_PATH = "transforms/wave.pth"일 경우
-<img src = 'images/results/wave.png' height = '250px'> 
-  
-  
-  - STYLE_TRANSFORM_PATH = "transforms/starry.pth"일 경우
-<img src = 'images/results/starry.png' height = '250px'>   
-</p>
-
-
-## Analysis/Visualization
-<p align = 'center'>
-<img src = 'results2/6.png' height = '400px'>
-  
-
-- splatoon.jpg 이미지를 약 2000장 훈련 시켰을 때, 로스
-
-<img src = 'results2/501 - 복사본.png' height = '300px'>
-
-
-
-- 같은 화풍의 penguin 이미지들을 약 2000장 훈련 시켰을 때, 로스
-
-<img src = 'results2/502.png' height = '300px'>
-
-
-- 결론 : [1-2] 케이스와 [1-3] 케이스의 Total Loss를 비교해보면 수치적으로는 [1-3] '화풍이 유사한 여러 이미지를 활용해 훈련시킨 케이스'가 Loss가 적은 것으로 나타났다. 그러나 상대적으로 이 차이가 미미한 지, 큰 차이가 있는지 알 수 없어 여러 이미지를 활용하는 것이 더 효율이 좋다고 말하는 것은 섣부른 판단이라고 생각한다. 더 많은 케이스를 비교하고, 적절한 변인통제가 필요할 것으로 보인다.
-
-  
 ## Installation
 
 
@@ -199,9 +116,6 @@ python webcam.py
 ### course
 
 
-
-
-
 -Data Files 설치 후 파일 상황
 
   <p align = 'center'>
@@ -209,11 +123,6 @@ python webcam.py
   <img src = 'course/1.png' height = '250px'>
 
   </p>
-
-
-
-
-
 
 
 
@@ -271,6 +180,90 @@ python webcam.py
   <img src = 'course/4.png' height = '250px'>
   <img src = 'course/5.png' height = '250px'>
   </p>
+
+  
+  
+## Results
+### 1.stylize.py
+#### 1-1. 제공된 pth 파일을 적용한 케이스
+  
+  
+  - up-diliman.jpg 원본
+<img src = 'images/up-diliman.jpg' height = '500px'>
+  
+  
+  - STYLE_TRANSFORM_PATH = "transforms/udnie.pth"일 경우
+<img src = 'images/results/oble_udnie.jpg' height = '250px'>
+  
+  
+  - STYLE_TRANSFORM_PATH = "transforms/mosaic.pth"일 경우
+<img src = 'images/results/oble_mosaic.jpg' height = '250px'>
+  
+  
+  - STYLE_TRANSFORM_PATH = "transforms/tokyo_ghoul.pth"일 경우
+<img src = 'images/results/oble_ghoul.jpg' height = '250px'>
+ 
+  
+  - STYLE_TRANSFORM_PATH = "transforms/wave.pth" 일 경우
+<img src = 'images/results/oble_wave.jpg' height = '250px'>
+</p>
+  
+  
+#### 1-2. 한 종류의 이미지를 활용해 훈련시킨 케이스
+
+
+<p align = 'center'>
+<img src = 'results2/1.png' height = '400px'>
+<img src = 'results2/２.png' height = '400px'> 
+<img src = 'results2/３.png' height = '400px'>  
+
+  
+
+
+#### 1-2. 화풍이 유사한 여러 이미지를 활용해 훈련시킨 케이스
+ 
+  
+<p align = 'center'>
+<img src = 'results2/9.png' height = '400px'>
+<img src = 'results2/8.png' height = '400px'> 
+
+ 
+### webcam.py 
+
+  - STYLE_TRANSFORM_PATH = "transforms/mosaic.pth"일 경우
+<img src = 'images/results/mosaic.png' height = '250px'>
+  
+  
+  - STYLE_TRANSFORM_PATH = "transforms/tokyo_ghoul.pth"일 경우
+<img src = 'images/results/tokyo.png' height = '250px'> 
+  
+  
+  - STYLE_TRANSFORM_PATH = "transforms/wave.pth"일 경우
+<img src = 'images/results/wave.png' height = '250px'> 
+  
+  
+  - STYLE_TRANSFORM_PATH = "transforms/starry.pth"일 경우
+<img src = 'images/results/starry.png' height = '250px'>   
+</p>
+
+
+## Analysis/Visualization
+<p align = 'center'>
+<img src = 'results2/6.png' height = '400px'>
+  
+
+- splatoon.jpg 이미지를 약 2000장 훈련 시켰을 때, 로스
+
+<img src = 'results2/501 - 복사본.png' height = '300px'>
+
+
+
+- 같은 화풍의 penguin 이미지들을 약 2000장 훈련 시켰을 때, 로스
+
+<img src = 'results2/502.png' height = '300px'>
+
+
+- 결론 : [1-2] 케이스와 [1-3] 케이스의 Total Loss를 비교해보면 수치적으로는 [1-3] '화풍이 유사한 여러 이미지를 활용해 훈련시킨 케이스'가 Loss가 적은 것으로 나타났다. 그러나 상대적으로 이 차이가 미미한 지, 큰 차이가 있는지 알 수 없어 여러 이미지를 활용하는 것이 더 효율이 좋다고 말하는 것은 섣부른 판단이라고 생각한다. 더 많은 케이스를 비교하고, 적절한 변인통제가 필요할 것으로 보인다.
 
 
 ### 주의사항
