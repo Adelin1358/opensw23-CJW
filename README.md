@@ -50,10 +50,11 @@
   
   
 #### 1-2. 한 종류의 이미지를 활용해 훈련시킨 케이스
-(주의사항)
+
 - 원본 이미지 파일
 <p align = 'center'>
 <img src = 'results2/splatoon.jpg' height = '400px'>
+해당 이미지 선정 :
 </p>
 
 
@@ -90,6 +91,13 @@
 <img src = 'results2/penguin3.jpg' height = '200px'>
 <img src = 'results2/penguin4.jpg' height = '200px'>
 <img src = 'results2/penguin5.jpg' height = '200px'>
+해당이미지 선정 사유:
+</p>
+
+
+- 각각의 이미지를 400장씩, 총 2000 훈련 시켰을 경우(train.py)
+<p align = 'center'>
+<img src = 'results2/penguin502.png' height = '400px'>
 </p>
 
 
