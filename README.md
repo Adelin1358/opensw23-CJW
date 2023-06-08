@@ -103,20 +103,6 @@
 <img src = 'results2/penguin502.png' height = '400px'>
 </p>
 
-
-### video.py 
-#### Video Stylization
-<p align = 'center'>
-<a href="https://www.youtube.com/watch?v=dB7DRsnkE3g&list=PL3freW_f-7aWsJrHTG5AKpY9TPWZgnNcm">
-<img src="images/results/video.gif" height = '360px'>
-</a>
-</p>
-<p align = 'center'>
-It took 6 minutes and 43 seconds to stylize a 2:11 minute-24 fps-1280x720 video on a GTX 1080 Ti. 
-</p>
-
-More videos in this [Youtube playlist](https://www.youtube.com/watch?v=dB7DRsnkE3g&list=PL3freW_f-7aWsJrHTG5AKpY9TPWZgnNcm). Unfortunately, Youtube's compression isn't friendly with style transfer videos, possibily because each frame is shaky with respect to its adjacent frames, hence obvious loss in video quality. `Raw and lossless output video can be downloaded in my` [Dropbox folder](https://www.dropbox.com/sh/ynlie98f1lb4csz/AAC4utgi8HrS_D7XDU-9FXoAa?dl=0), or [Gdrive Folder](https://drive.google.com/open?id=1uplUkayaTiThURmQTAuUqeAKuQeLxXCc)
- 
   
 ### webcam.py 
 
@@ -221,22 +207,6 @@ python stylize.py
 * `STYLE_TRANSFORM_PATH`: path of the pre-trained weights of the the transformation network. Sample pre-trained weights are availabe in `transforms` folder, including their implementation parameters.
 * `PRESERVER_COLOR`: set to `True` if you want to preserve the original image's color after applying style transfer. Default value is `False`
 
-### Stylizing Videos
-**`video.py`**: Extracts all frames of a video, apply fast style transfer on each frames, and combine the styled frames into an output video. The output video doesn't retain the original audio. Optionally, you may use FFmpeg to merge the output video and the original video's audio.
-```
-python video.py
-```
-**Options**
-* `VIDEO_NAME`: path of the original video
-* `FRAME_SAVE_PATH`: parent folder of the save path of the extracted original video frames. Default is `"frames/"`
-* `FRAME_CONTENT_FOLDER`: folder of the save path of the extracted original video frames. Default is `"content_folder/"`
-* `FRAME_BASE_FILE_NAME`: base file name of the extracted original video frames.  Default is  `"frame"`
-* `FRAME_BASE_FILE_TYPE`: save image file time ".jpg"
-* `STYLE_FRAME_SAVE_PATH`: path of the styled frames. Default is `"style_frames/"`
-* `STYLE_VIDEO_NAME`: name(or save path) of the output styled video. Default is `"helloworld.mp4"`
-* `STYLE_PATH`: pretrained weight of the style of the transformation network to use for video style transfer. Default is `"transforms/aggressive.pth"`
-* `BATCH_SIZE`: batch size of stylization of extracted original video frames. A 1080ti 11GB can handle a batch size of 20 for 720p videos, and 80 for a 480p videos. Dafult is `1`
-* `USE_FFMPEG`(Optional): Set to `True` if you want to use FFmpeg in extracting the original video's audio and encoding the styled video with the original audio.
 
 ### Stylizing Webcam
 **`webcam.py`**: Captures and saves webcam output image, perform style transfer, and again saves a styled image. Reads the styled image and show in window. 
